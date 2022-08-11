@@ -1,0 +1,94 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  background-color: #ffedd5;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+.price {
+  font-family: "Roboto Serif";
+  text-transform: uppercase;
+  color: #2d2c2a;
+}
+
+header,
+section {
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+header {
+  padding-block: 3.2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.4rem;
+  font-size: 2.8rem;
+  line-height: 3.3rem;
+
+  color: #2d2c2a;
+}
+header p {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+
+  color: rgba(0, 0, 0, 0.7);
+}
+
+header h1 span {
+  color: #995000;
+}
+
+section {
+  margin-bottom: 2.4rem;
+}
+
+section h2 {
+  padding: 0.8rem 1.6rem;
+  margin-bottom: 2.4rem;
+  font-size: 1.8rem;
+  text-align: center;
+
+  background-color: #fed7aa;
+}
+
+ul li {
+  margin-bottom: 1.6rem;
+  display: flex;
+}
+
+li .details {
+  max-width: 24rem;
+}
+
+.details h3 {
+  margin-bottom: 0.8rem;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+li strong {
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+}
+
+.details p {
+  text-align: left;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+
+  color: rgba(0, 0, 0, 0.6);
+}
